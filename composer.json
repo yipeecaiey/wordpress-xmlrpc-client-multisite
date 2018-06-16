@@ -18,7 +18,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Yipeecaiey\\WordpressXmlrpcClient\\": "src/",
+			"Yipeecaiey\\WordpressXmlrpcClient\\": "src/"
 		}
 	},
 	"minimum-stability": "stable"
