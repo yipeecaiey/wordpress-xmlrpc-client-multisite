@@ -7,7 +7,7 @@ Created by [Hieu Le](http://www.hieule.info)
 
 MIT licensed.
 
-Current version: 1.1
+Current version: 1.2
 
 
 ## Features
