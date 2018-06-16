@@ -5,7 +5,7 @@ namespace HieuLe\WordpressXmlrpcClient;
 /**
  * A XML-RPC client that implement the {@link http://codex.wordpress.org/XML-RPC_WordPress_API Wordpress API}.
  *
- * @version 1.0
+ * @version 1.1
  *
  * @author  Hieu Le <http://www.hieule.info>
  *
