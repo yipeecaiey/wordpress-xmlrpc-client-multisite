@@ -4,13 +4,7 @@
 	"keywords": ["wordpress", "xmlrpc", "client", "remote", "api", "multisite"],
 	"license": "MIT",
 	"stable": "1.1",
-    /*"repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/yipeecaiey/wordpress-xmlrpc-client-multisite"
-      }
-    ],*/
-	"require": {
+    "require": {
 		//"hieu-le/wordpress-xmlrpc-client": "dev-master",
 		"php": ">=7.0.0",
 		"ext-xmlrpc": "*"
