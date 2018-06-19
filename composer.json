@@ -1,5 +1,5 @@
 {
-	"name": "hieu-le/wordpress-xmlrpc-client",
+	"name": "yipeecaiey/wordpress-xmlrpc-client",
 	"description": "A PHP client for Wordpress websites that closely implement the XML-RPC WordPress API with full test suite built in",
 	"keywords": ["wordpress", "xmlrpc", "client", "remote", "api"],
 	"license": "MIT",
