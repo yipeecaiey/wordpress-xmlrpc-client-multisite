@@ -24,7 +24,7 @@ OR
 Add this dependency into your `composer.json` file
 
 ```json
-"yipeecaiey/wordpress-xmlrpc-client":"~1.0"
+"yipeecaiey/wordpress-xmlrpc-client":"~3.0"
 ```
 
 After that, run `composer update` to install this package.
