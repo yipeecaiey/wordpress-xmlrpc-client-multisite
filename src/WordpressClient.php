@@ -282,15 +282,16 @@ class WordpressClient
      * @param string  $body         the post body
      * @param array   $content      the content array, see more at wordpress documentation
      * @param integer $blogId       the blog id, see more at wordpress documentation
+     * @param string|null $type     the type of post
      *
      * @return integer the new post id
      *
      * @link http://codex.wordpress.org/XML-RPC_WordPress_API/Posts#wp.newPost
      */
-    function newPost($title, $body, array $content = array(), $blogId = 1)
+    function newPost($title, $body, array $content = array(), string $type = 'post', int $blogId = 1)
     {
         $default                 = array(
-            'post_type'   => 'post',
+            'post_type'   => $type ?: 'post',
             'post_status' => 'publish',
         );
         $content                 = array_merge($default, $content);
